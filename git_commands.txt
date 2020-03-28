@@ -1,0 +1,44 @@
+
+
+initalize the git in the required directory.
+
+example /c/user/desktop/git
+
+run from this folder git bash.
+to monitor thhs folder by run below command
+
+#git init
+#git config --global user.name your_username
+#git config --global user.email your_user_email
+
+now git will monitor this directory.
+
+#git add file_name 		 -- to save single file in staging
+#git add .				 ---to save multiplle files in staging
+#git commit -m "message" 	--to commit the changes
+
+#git log  				- to check the logs of commits
+#git status 			- to check the status of files in git repo.
+
+#git stash				- to temporarly hide the unwanted fiels form git repo
+#git stash list			- to list the ignored files
+#git stash show "stash id" 		-- to lsit the files
+#git stash apply "stash id"		-- to bring back the files to monitoring
+
+#git log --oneline
+#git diff "log id"
+#git show "log id"
+
+#git branch
+#git branch feature
+#git checkout feature
+#git merge feature
+
+#git cherry-pick feature "git-log-id"	--one specific commit id will be reflected to master.
+#git  reset --hard "git-log-id"			--delete the above commits
+#
+#
+
+
+
+
